@@ -1,0 +1,219 @@
+/* -- Reset -- */
+
+ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     font-size: 100%;
+}
+ html, body {
+     height: 100%;
+}
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, video {
+     display: block;
+}
+ b, strong {
+     font-weight: bold;
+}
+ img {
+     color: transparent;
+     font-size: 0;
+     vertical-align: middle;
+     -ms-interpolation-mode: bicubic;
+}
+ li {
+     display: list-item;
+}
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+ th, td, caption {
+     font-weight: normal;
+     vertical-align: top;
+     text-align: left;
+}
+ q {
+     quotes: none;
+}
+ q:before, q:after {
+     content: '';
+     content: none;
+}
+ sub, sup, small {
+     font-size: 75%;
+}
+ sub, sup {
+     line-height: 0;
+     position: relative;
+     vertical-align: baseline;
+}
+ sub {
+     bottom: -0.25em;
+}
+ sup {
+     top: -0.5em;
+}
+ svg {
+     overflow: hidden;
+}
+ img {
+     max-width: 100%;
+}
+ img {
+     -ms-interpolation-mode: bicubic;
+}
+ li {
+     list-style-type: none;
+}
+
+/* -- Global -- */
+
+ body {
+     background-color: #3b3a3c;
+}
+ .container {
+     width: 1024px;
+     height: 2111px;
+     display: block;
+     margin: 0 auto;
+     position: relative;
+     background-image: url('img/bg-img.png');
+     background-repeat: no-repeat;
+     background-position: center 227px;
+}
+
+/* -- Typography -- */
+
+ @font-face {
+     font-family: 'Apex New Light';
+     src: url('fonts/ApexNewLight.otf');
+}
+ a {
+     color: #fbf239;
+     text-decoration: none;
+}
+ p {
+     margin-bottom: 30px;
+     line-height: 1.28;
+}
+ body {
+     font-family:'Apex New Light', Arial, sans-serif;
+     font-size: 24px;
+     font-weight: 100 !important;
+     color: #ffffff;
+}
+ h1 {
+     font-size: 50px;
+     font-weight: 100;
+     width: 320px;
+     padding: 219px 0 0 15px;
+     margin-left: 28px;
+     position: absolute;
+     letter-spacing: -2px;
+}
+ h1:before {
+     content: "";
+     width: 1px;
+     position: absolute;
+     background: #fbf239;
+     bottom: 14px;
+     left: 0;
+     height: 100%;
+}
+ .yellow {
+     color: #fbf239;
+}
+
+/* -- General Styling -- */
+
+ .logo {
+     top: 55px;
+     left: 233px;
+     position: absolute;
+}
+ .address:before {
+     content: "";
+     width: 1px;
+     position: absolute;
+     background: #fbf239;
+     bottom: 8px;
+     left: 0;
+     height: 100%;
+}
+ .address {
+     left: 607px;
+     padding: 33px 0 0 15px;
+     position: absolute;
+     text-transform: uppercase;
+}
+ .address p {
+     margin-bottom: 0;
+}
+ .info {
+     position: absolute;
+     width: 505px;
+     top: 816px;
+     left: 430px;
+}
+ .info:before {
+     content: "";
+     width: 1px;
+     position: absolute;
+     background: #fbf239;
+     position: absolute;
+     top: -270px;
+     right: -61px;
+     height: 1595px;
+}
+ .bottom {
+     position: absolute;
+     top: 1900px;
+}
+ .loncor:before {
+     content: "";
+     width: 1px;
+     position: absolute;
+     background: #fbf239;
+     bottom: -65px;
+     left: 0;
+     height: 1714px;
+}
+ .loncor {
+     position: absolute;
+     margin-left: 28px;
+     padding-left: 14px;
+}
+ .loncor p {
+     display: inline-block;
+     width: 290px;
+     margin-left: 189px;
+     margin-top: -4px;
+     margin-bottom: 0;
+}
+ .loncor img {
+     position: absolute;
+     display: block;
+}
+ .download:before {
+     content: "";
+     width: 1px;
+     position: absolute;
+     background: #fbf239;
+     top: 4px;
+     left: 0;
+     height: 236px;
+}
+ .download {
+     left: 609px;
+     top: 1px;
+     padding: 0 0 50px 15px;
+     width: 150px;
+     position: absolute;
+}
+ .download p {
+     font-size: 13px;
+}
+ .website {
+     margin: 51px 0 0 0;
+}
